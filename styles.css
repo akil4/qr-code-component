@@ -7,6 +7,38 @@
 }
 
 html {
-    font-size: 15px;
-    font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+}
+
+.qr-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#h1 {
+    color: hsl(218, 44%, 22%);
+    padding: 1em 0;
+}
+
+.qr-text-para {
+    color: hsl(216, 15%, 48%);
+    padding: 0 0.5em 1em;
+    margin-bottom: 0.5rem;
 }

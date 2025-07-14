@@ -22,7 +22,7 @@ body {
 .container {
     background-color: hsl(0, 0%, 100%);
     max-width: 300px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     padding: 1em;
 }
